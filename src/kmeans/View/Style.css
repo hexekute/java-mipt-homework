@@ -1,0 +1,96 @@
+.root {
+    -fx-background-color: #404042;
+    -fx-font: 15px Arial;
+}
+.chart {
+    -fx-background:  #404042;
+}
+.chart-series-line {
+    -fx-stroke-width: 3px;
+    //-fx-stroke: #BDDA1C;
+}
+
+.default-color2.chart-symbol { -fx-background-color: lightskyblue; -fx-padding: 3px;}
+.default-color1.chart-symbol { -fx-background-color: white; -fx-padding: 3px;}
+.default-color0.chart-symbol { -fx-background-color: #BDDA1C; -fx-padding: 2px;}
+.axis {
+    -fx-font-size: 1.1em;
+    -fx-tick-label-fill: white;
+    -fx-tick-length: 20;
+    -fx-minor-tick-length: 10;
+}
+.axis-tick-mark {
+    -fx-stroke: #BDDA1C;
+    -fx-stroke-width: 2px;
+}
+.axis-minor-tick-mark {
+    -fx-stroke: white;
+}
+.button{
+    -fx-border-width:1px 1px 1px 1px ;
+    -fx-border-color: #BDDA1C;
+    -fx-border-radius: 5px;
+    -fx-background-color: #404042;
+    -fx-text-fill: white;
+}
+.button:hover{
+    -fx-text-fill: #BDDA1C;
+}
+.button:pressed{
+    -fx-background-color: #BDDA1C;
+    -fx-text-fill: #404042;
+}
+.textField{
+    -fx-border-width:2px 2px 2px 2px ;
+    -fx-border-color: #777779;
+    -fx-background-color: #404042;
+    -fx-text-fill: white;
+}
+.btnBox{
+    //-fx-border-width:0px 3px 0px 0px ;
+    //-fx-border-color: #906090;
+}
+.mainPane{
+    -fx-border-width:0px 0px 0px 3px ;
+    -fx-border-color: #777779;
+}
+.label{
+    -fx-text-fill: #BDDA1C;
+}
+.valuesPane{
+    -fx-border-width:15px 3px 0px 0px ;
+    -fx-border-color: #404042;
+}
+.parametersPane{
+    -fx-border-width:15px 3px 0px 0px ;
+    -fx-border-color: #404042;
+}
+.bottomPane{
+    -fx-border-width:3px 0px 0px 0px ;
+    -fx-border-color: #777779;
+}
+.btnPane{
+    -fx-padding:10px;
+}
+.combo-box {
+-fx-padding:1px;
+    -fx-background-color: #404042;
+    -fx-border-color:#BDDA1C;
+    -fx-border-radius: 5px;
+
+}
+.list-cell {
+    -fx-background-color: #404042;
+    -fx-text-fill: white;
+    //-fx-border-color:#BDDA1C;
+    //-fx-border-radius: 5px;
+}
+.list-cell:hover {
+    //-fx-background-color: white;
+    -fx-text-fill:#BDDA1C;
+    //-fx-border-radius: 5px;
+}
+.list-cell:pressed{
+    -fx-background-color: white;
+    -fx-text-fill:#404042;
+}

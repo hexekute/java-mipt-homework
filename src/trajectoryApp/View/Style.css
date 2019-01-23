@@ -1,0 +1,12 @@
+.calcButton {
+  -fx-font-weight: 700;
+  -fx-color: black;
+  -fx-text-decoration: none;
+  -fx-border-radius: 3px;
+  -fx-background: rgb(64,199,129);
+  -fx-transition: 0.2s;
+}
+.calcButton:hover { -fx-background: rgb(53, 167, 110); }
+.calcButton:active {
+  -fx-background: rgb(33,147,90);
+}
